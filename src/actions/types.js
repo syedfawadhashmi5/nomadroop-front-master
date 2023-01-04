@@ -1,0 +1,17 @@
+
+export const CREATE_PROPERTY = "CREATE_PROPERTY";
+export const ALL_PROPERTIES = "ALL_PROPERTIES";
+export const UPDATE_PROPERTY = "UPDATE_PROPERTY";
+export const DELETE_PROPERTY = "DELETE_PROPERTY";
+export const SHOW_PROPERTY = "SHOW_PROPERTY";
+export const DELETE_ALL_PROPERTY = "DELETE_ALL_PROPERTY";
+
+
+export const CREATE_IMAGE = "CREATE_IMAGE";
+export const GET_IMAGE = "GET_IMAGE";
+export const UPDATE_IMAGE = "UPDATE_IMAGE";
+export const DELETE_IMAGE = "DELETE_IMAGE";
+export const GET_ALL_IMAGE = "GET_ALL_IMAGE";
+
+
+
