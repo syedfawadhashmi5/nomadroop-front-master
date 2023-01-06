@@ -4,12 +4,12 @@ function Detail() {
   return (
     <div className="Invoice_section">
       <h2 className="mt-0">Invoices</h2>
-      <div className="filter_invoice container mt-4 p-2.5">
+      <div className="container filter_invoice  mt-4">
         <h2 className="my-4">Apply Filter here</h2>
         <div className="bottom_line"></div>
         <div className="filter_btn mt-3.5 text-center">
-          <div className="row">
-            <div className="col-md-3">
+          <div className="row row-cols-2">
+            <div className="col-md-3 col-6 text-sm-center">
               <div className="dropdown">
                 <button
                   className="btn dropdown-toggle"
@@ -39,7 +39,7 @@ function Detail() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 text-sm-center">
               <div className="dropdown">
                 <button
                   className="btn dropdown-toggle"
@@ -69,7 +69,7 @@ function Detail() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 text-sm-center">
               <div className="dropdown">
                 <button
                   className="btn dropdown-toggle"
@@ -99,7 +99,7 @@ function Detail() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6 text-sm-center">
               <div className="dropdown">
                 <button
                   className="btn dropdown-toggle"
@@ -130,15 +130,15 @@ function Detail() {
               </div>
             </div>
           </div>
-          <div className="table_box">
+          <div className="container info_font">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <h2>
                   Reservation fees filter applies only to the invoices issued by
                   you!
                 </h2>
               </div>
-              <div className="col-md-6 ">
+              <div className="col-md-6 col-12">
                 <h2 className="mb-0 text-end">
                   Total Invoices Confirmed - <span>USD 19447.2</span>
                 </h2>
@@ -147,7 +147,11 @@ function Detail() {
                 </h2>
               </div>
               <div className="bottom_line"></div>
-              <div className="table_user">
+            </div>
+            <div className="container">
+              <div className="row">
+              <div className="col-md-12 col-12">
+                <div className="table_user table-responsive">
                 <table className="table">
                   <thead>
                     <tr>
@@ -161,9 +165,9 @@ function Detail() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>
+                      <th>
                       Invoice No <br /> <span>27383</span> {/*  <br /> <ArrowDropUpIcon /> */}
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -177,9 +181,9 @@ function Detail() {
                       <td>Issued</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -193,9 +197,9 @@ function Detail() {
                       <td>Confirmed</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -209,9 +213,9 @@ function Detail() {
                       <td>Deposit Paid</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -225,9 +229,9 @@ function Detail() {
                       <td>Issued</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -241,9 +245,9 @@ function Detail() {
                       <td>Confirmed</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -257,9 +261,9 @@ function Detail() {
                       <td>Deposit Paid</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -273,9 +277,9 @@ function Detail() {
                       <td>Issued</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -289,9 +293,9 @@ function Detail() {
                       <td>Confirmed</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -305,9 +309,9 @@ function Detail() {
                       <td>Deposit Paid</td>
                     </tr>
                     <tr>
-                      <td>
+                      <th>
                         Invoice No <br /> <span>27383</span>
-                      </td>
+                      </th>
                       <td>
                         Monday <br /> September 26th, 2022
                       </td>
@@ -322,6 +326,8 @@ function Detail() {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+                </div>
               </div>
             </div>
           </div>
