@@ -26,6 +26,7 @@ import HostReservations from './Screens/HostReservations';
 import MyBookings from './Screens/MyBookings';
 import ProfileLayout from './Layout/ProfileLayout';
 import Detail from './Screens/Detail';
+import My_Properties from './Screens/Admin/My_Properties';
 
 function App() {
   let url = "http://ror-nomadroof.herokuapp.com/"
@@ -125,6 +126,7 @@ function App() {
             <Route path='my-properties' element={<MyProperties />}/>
             <Route path="add-property" element={<NewProperty />} />
             <Route path="account-verification" element={<AccountVerification />} />
+            <Route path="admin/my_properties" element={<My_Properties />} />
           </Route>
 
           <Route path="/other-listing-map" element={<OtherlistingMap />} />

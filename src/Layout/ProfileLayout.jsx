@@ -205,7 +205,14 @@ const ProfileLayout =({children}) => {
                     </ListItemButton>
                     </NavLink>
                   </ListItem>
-                  
+                  <ListItem  disablePadding>
+                    <NavLink to="/profile/admin/my_properties" className={({isActive}) => isActive ? 'drawer_btn active-bar w-100': 'drawer_btn w-100'}>
+                    <ListItemButton>
+                        <ArticleIcon className='me-2' /> 
+                        My Properties 
+                    </ListItemButton>
+                    </NavLink>
+                  </ListItem>
                 </>
               
               )}

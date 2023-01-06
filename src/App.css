@@ -1286,6 +1286,156 @@ font-weight: 600;
 }
 
 
+/* my_properties_section */
+
+.main_properties {
+	height: auto;
+	background-color: #FFFFFF;
+	border-radius: 12px;
+	border: 1px solid #E3E3E3;
+	padding: 25px 20px;
+}
+
+.search_bar .search  {
+    width: 100%;
+    height: 36px;
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3 !important;
+    border-radius: 12px;
+    padding: 12px 12px;
+}
+
+.search_bar .search  .fa {
+    color: #DFDFDF;
+    font-size: 12px;
+    line-height: 24;
+}
+
+.search_bar .search input[type=text] {
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 12;
+		color: #5C5C5C;
+		background: #ffffff !important;
+		height: 18px;
+		border: none !important;
+}
+
+.search_bar .btn {
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+	color: #FFFFFF;
+	background-color: #F5694B;
+	border: none;
+	border-radius: 500px;
+	height: 30px;
+	width: 114px;
+}
+
+.main_properties .bottom_line {
+	border: 1px solid #E3E3E3;
+    margin: 16px 0px;
+}
+
+/* propertyCard_main_section */
+
+.propertyCard_main .card {
+	width: 100%;
+	background-color: #F6F6F6;
+	border: 1px solid #E3E3E3;
+	padding: 12px;
+}
+
+.propertyCard_main .card .card-body h5 {
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #000000;
+}
+
+.propertyCard_main .card .card-body h4 {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #000000;
+}
+
+.propertyCard_main .card .card-body  span {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #F5694B;
+}
+
+.propertyCard_main .card .card-body .btn_box .btn {
+	width: 130px;
+	height: 35px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 12px;
+	color: #FFFFFF;
+	border-radius: 100px;
+}
+
+.propertyCard_main .card img {
+	position: relative;
+}
+
+.rounded-v {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #FFFFFF;
+	width: 184.59px;
+	height: 44px;
+	background-image: url(./images/shape1.png);
+    position: absolute;
+    top: 25px;
+    right: -3px;
+	text-align: center;
+	padding: 8px;
+  }
+
+  .rounded-v h5{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #FFFFFF;
+  }
+  
+  .rounded-vL {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #FFFFFF;
+	width: 108.59px;
+	height: 44px;
+	background-image: url(./images/shape2.png);
+    position: absolute;
+    top: 25px;
+    right: -3px;
+	text-align: center;
+	padding: 8px;
+  }
+
+  .rounded-vL h5{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #FFFFFF;
+  }
 
 @media only screen and (max-width: 768px) {
 	.bigfont {
